@@ -1,0 +1,100 @@
+2024-07-27 10:56:40.179 [info] Extension host with pid 1213 started
+2024-07-27 10:56:40.204 [info] Lock '/home/student_00_0e0d8c3f5e45/.codeoss/data/User/workspaceStorage/-567cc9e9/vscode.lock': Lock acquired.
+2024-07-27 10:56:40.317 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-27 10:56:40.477 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-27 10:56:40.601 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-27 10:56:40.601 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-27 10:56:40.900 [info] Eager extensions activated
+2024-07-27 10:56:40.901 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-07-27 10:56:40.902 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-07-27 10:56:40.902 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-07-27 10:56:40.903 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-27 10:56:40.903 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-27 10:56:43.719 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-27 10:56:43.720 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-27 10:57:02.047 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: false, activationEvent: 'onLanguage:terraform'
+2024-07-27 11:04:43.257 [error] [hashicorp.terraform] provider FAILED
+2024-07-27 11:04:43.264 [error] Error: instance.tf (9,4): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-27 11:05:21.070 [error] [hashicorp.terraform] provider FAILED
+2024-07-27 11:05:21.070 [error] Error: instance.tf: position 1,1 is out of range instance.tf:1,2-20,2
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-27 11:05:21.769 [error] [hashicorp.terraform] provider FAILED
+2024-07-27 11:05:21.770 [error] Error: instance.tf: position 1,1 is out of range instance.tf:1,2-20,2
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-27 11:15:09.048 [error] [hashicorp.terraform] provider FAILED
+2024-07-27 11:15:09.049 [error] Error: exp.tf (17,35): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-27 11:17:29.865 [error] [hashicorp.terraform] provider FAILED
+2024-07-27 11:17:29.865 [error] Error: exp.tf (15,36): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-27 11:18:34.006 [error] [hashicorp.terraform] provider FAILED
+2024-07-27 11:18:34.007 [error] Error: exp.tf (15,37): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-27 11:18:34.314 [error] [hashicorp.terraform] provider FAILED
+2024-07-27 11:18:34.315 [error] Error: exp.tf (15,38): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-27 11:18:34.649 [error] [hashicorp.terraform] provider FAILED
+2024-07-27 11:18:34.650 [error] Error: no reference origin found
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-27 11:19:11.209 [error] [hashicorp.terraform] provider FAILED
+2024-07-27 11:19:11.210 [error] Error: no reference origin found
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-27 11:19:14.282 [error] [hashicorp.terraform] provider FAILED
+2024-07-27 11:19:14.283 [error] Error: exp.tf (15,53): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-27 11:19:14.970 [error] [hashicorp.terraform] provider FAILED
+2024-07-27 11:19:14.970 [error] Error: no reference origin found
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-27 11:24:34.464 [error] [hashicorp.terraform] provider FAILED
+2024-07-27 11:24:34.465 [error] Error: exp.tf (11,4): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-07-27 11:25:51.843 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
